@@ -8,6 +8,9 @@ export default defineConfig({
       base: './template/base.html',
       texture: './template/texture.html',
     },
+    output:{
+      publicPath:"/ogl-shader/"
+    },
     sourcemap: false,
     presetEnv: false,
   },
